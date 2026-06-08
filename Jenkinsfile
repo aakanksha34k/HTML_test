@@ -15,7 +15,7 @@ pipeline {
         stage('Run') {
             steps {
                 sh '''
-                CONTAINER_NAME="my-app-container"
+                CONTAINER_NAME="my-container"
                 IMAGE_NAME="newimg"
 
                 # Check if the container exists
