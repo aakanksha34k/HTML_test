@@ -25,7 +25,7 @@ pipeline {
                 fi
                     echo "Container '${CONTAINER_NAME}' not found. Starting it now..."
                     docker run -d --name "${CONTAINER_NAME}" "${IMAGE_NAME}"
-                    echo "Container started successfully."
+                    echo "Container started successfully !!!!"
                 
                 '''
             }
